@@ -1,0 +1,46 @@
+name: ChatPlugin
+description: "About Minecraft Chatting"
+version: 1.0
+main: deca.chat.Main
+author: Deca7777
+commands: 
+  notice: 
+    description: "command for notice"
+    permission: chatplugin.notice
+    permission-message: "You don't have permission!"
+    usage: "usage: /notice [string]"
+  shout:
+    description: "command for shout"
+    permission: chatplugin.shout
+    permission-message: "You don't have permission!"
+    usage: "usage: /shout [string]"
+  s:
+    description: "command for shout"
+    permission: chatplugin.shout
+    permission-message: "You don't have permission!"
+    usage: "usage: /s [string]"
+  q:
+    description: "command for shout"
+    permission: chatplugin.quiet
+    permission-message: "You don't have permission!"
+    usage: "usage: /q [string]"
+  quiet:
+    description: "command for shout"
+    permission: chatplugin.quiet
+    permission-message: "You don't have permission!"
+    usage: "usage: /quite [string]"
+  w:
+    description: "command for whisper"
+    permission: chatplugin.w
+    permission-message: "You don't have permission!"
+    usage: "usage: /w <username> [string]"
+  whisper:
+    description: "command for whisper"
+    permission: chatplugin.w
+    permission-message: "You don't have permission!"
+    usage: "usage: /whisper <username> [string]"
+  tell:
+    description: "command for whisper"
+    permission: chatplugin.w
+    permission-message: "You don't have permission!"
+    usage: "usage: /tell <username> [string]"
